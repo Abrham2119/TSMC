@@ -5,7 +5,6 @@ class Person {
   
     constructor(name: string, age: number) {
       this.name = name;
-      this.age = age;
     }
   
     // Method to get person's information
