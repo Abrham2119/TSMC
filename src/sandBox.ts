@@ -240,7 +240,7 @@ function swapId(id:Id):Id{
 const idOne=swapId("hello");
 const idTwo=swapId(25)
 
-console.log(idOne, idTwo)
+
 
 
 interface users{
