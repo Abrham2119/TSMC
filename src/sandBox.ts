@@ -227,6 +227,7 @@ emailOne="jhgtrdtfyguhijko"
 
 //tagged interface
 
+
 type Id=string|number
 function swapId(id:Id):Id{
     if (typeof id==='string'){
