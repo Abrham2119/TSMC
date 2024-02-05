@@ -258,13 +258,19 @@ interface person{
 
 }
 
+let person1={
+    type:"person",
+    firstname:"abrham",
+    age:13,
+    id:"hsuhdias"
+}
+
 function loginDetails(value:person|users):void {
     if (value.type === "user"){
         console.log(value.firstname,value.email,value.id)
         
     }
-    else{
+    if(value.type === "person"){
         console.log(value.age,value.firstname)
     }
-
 }
